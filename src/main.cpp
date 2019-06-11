@@ -211,14 +211,14 @@ void Gui()
 						if (temp == -1)
 						{
 							texture_number++;
-							all_object[object_number - 1].text = texture_number;
+							all_object[currentID - 1].text = texture_number;
 							AllText[texture_number - 1] = ImGuiFileDialog::Instance()->GetCurrentFileName();
 							T[texture_number - 1] = Texture2D::LoadFromFile(ImGuiFileDialog::Instance()->GetFilepathName());
 
 						}
 						else
 						{
-							all_object[object_number - 1].text = temp+1;
+							all_object[currentID - 1].text = temp+1;
 							
 						}
 
@@ -384,7 +384,7 @@ int main(void)
 
 	
 	
-    T[0] = Texture2D::LoadFromFile("../resource/sun.png");
+    T[0] = Texture2D::LoadFromFile("../textures/sun.png");
 	S[0]= StaticMesh::LoadMesh("../resource/sphere.obj");
 	S[4] = StaticMesh::LoadMesh("../resource/cone.obj");
 	S[1]  = StaticMesh::LoadMesh("../resource/cube.obj");

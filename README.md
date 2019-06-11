@@ -1,10 +1,11 @@
-ç¹ªåœ–æŠ€è¡“è¨­è¨ˆèˆ‡æ‡‰ç”¨FinalProject
+
+Ã¸¹Ï§Ş³N³]­p»PÀ³¥ÎFinalProject
 ============
-ä½œæ¥­ç’°å¢ƒ
+§@·~Àô¹Ò
 ===
 Windows 10, visual studio 15 2017 Win64
 
-æ–¹æ³•èªªæ˜
+¤èªk»¡©ú
 ====
 
 #### Requirement
@@ -13,15 +14,15 @@ Windows 10, visual studio 15 2017 Win64
 2. conan - package manager (windows)
 [install here](https://conan.io/)
 
-å®‰è£å®Œå¾Œé–‹å•ŸCMD
+¦w¸Ë§¹«á¶}±ÒCMD
 ```bash
 set PATH="C:\Program File\CMake\bin\";%PATH%
 ```
-æ‰¾**å…¨è‹±æ–‡**çš„è·¯å¾‘cloneå€‹
+§ä**¥ş­^¤å**ªº¸ô®|clone­Ó
 ```bash
 git clone https://github.com/genius92606/simple-3D-software.git
 ```
- #### é€²å…¥è³‡æ–™å¤¾å¾Œ
+ #### ¶i¤J¸ê®Æ§¨«á
 ```bash
 mkdir build && cd build
 
@@ -39,52 +40,52 @@ cd build
 cmake --build .
 ```
 
-#### åŸ·è¡Œ
+#### °õ¦æ
 ```bash
 cd build
 start bin\app.exe
 ```
-ç¨‹å¼å¦‚ä½•é‹è¡Œ
+µ{¦¡¦p¦ó¹B¦æ
 ==
 
 ### File dialog
-ä½¿ç”¨ImGuiå»ºç«‹ç°¡å–®çš„æª”æ¡ˆç¸½ç®¡ç³»çµ±ï¼Œè®“ä½¿ç”¨è€…å¯ä»¥å¾ˆç°¡å–®çš„è®€å–æª”æ¡ˆ
+¨Ï¥ÎImGui«Ø¥ßÂ²³æªºÀÉ®×Á`ºŞ¨t²Î¡AÅı¨Ï¥ÎªÌ¥i¥H«ÜÂ²³æªºÅª¨úÀÉ®×
 
 
 ### class
-ç”¨ä¾†ç®¡ç†è®€é€²ä¾†çš„Meshä»¥åŠTexture
+¥Î¨ÓºŞ²zÅª¶i¨ÓªºMesh¥H¤ÎTexture
 
 ### Struct
-è¨˜éŒ„æ‰€æœ‰ç‰©é«”çš„æ‰€æœ‰è³‡è¨Š
+°O¿ı©Ò¦³ª«Åéªº©Ò¦³¸ê°T
 
-### æ»¾è¼ªæ”¾å¤§ç¸®å°ä»¥åŠæ”¹è®Šè¦–è§’
-æ»‘å‹•æ»¾è¼ªå¯ä»¥ZOOM, å£“ä½æ»¾è¼ªç§»å‹•å¯ä»¥æ”¹è®Šè¦–è§’
+### ºu½ü©ñ¤jÁY¤p¥H¤Î§ïÅÜµø¨¤
+·Æ°Êºu½ü¥i¥HZOOM, À£¦íºu½ü²¾°Ê¥i¥H§ïÅÜµø¨¤
 
 
-ç¨‹å¼å¦‚ä½•æ“ä½œ
+µ{¦¡¦p¦ó¾Ş§@
 ==
 
-1. é–‹å•ŸåŸ·è¡Œæª”å¾Œ
+1. ¶}±Ò°õ¦æÀÉ«á
 ```bash
 cd build
 start bin\app.exe
 ```
-2. æŒ‰å·¦é‚Šçš„ä¸‹æ‹‰é¸å–®å¾ŒæŒ‰"add"æ–°å¢å…§å»ºå¥½çš„ç‰©ä»¶æˆ–æ˜¯æŒ‰å³é‚Šçš„"Load obj"ä¾†è®€å–ç‰©ä»¶
+2. «ö¥ªÃäªº¤U©Ô¿ï³æ«á«ö"add"·s¼W¤º«Ø¦nªºª«¥ó©Î¬O«ö¥kÃäªº"Load obj"¨ÓÅª¨úª«¥ó
 ![](https://i.imgur.com/IhAxQ4V.png)
-3. å¦‚é¸æ“‡"Load obj"å‰‡æœƒè·³å‡ºæª”æ¡ˆç¸½ç®¡
+3. ¦p¿ï¾Ü"Load obj"«h·|¸õ¥XÀÉ®×Á`ºŞ
 ![](https://i.imgur.com/qK1QTp2.png)
-å³ä¸‹è§’å¯ä»¥é¸æ“‡æƒ³é–‹å•Ÿçš„æª”æ¡ˆæ ¼å¼
-4. æ–°å¢å¥½å¾ŒåŸæœ¬çš„è¦–çª—æœƒå¤šå‡ºä»¥ä¸‹æ¬„ä½
+¥k¤U¨¤¥i¥H¿ï¾Ü·Q¶}±ÒªºÀÉ®×®æ¦¡
+4. ·s¼W¦n«á­ì¥»ªºµøµ¡·|¦h¥X¥H¤UÄæ¦ì
 ![](https://i.imgur.com/YrwHcA6.png)
-å¯ä»¥æ›´æ”¹ç‰©ä»¶çš„color, translate, rotation, scale
-å¦‚ä¸è¦å…§å»ºçš„é¡è‰²ï¼Œå‰‡å¯ä»¥æŒ‰"Load Texture"è®€å–è²¼åœ–
-5. æ»‘é¼ æ»¾è¼ªæŒ‰ä½å¾Œç§»å‹•å¯ä»¥æ”¹è®Šè¦–è§’
-6. æ»‘é¼ æ»¾è¼ªå¯ä»¥ZOOM
+¥i¥H§ó§ïª«¥óªºcolor, translate, rotation, scale
+¦p¤£­n¤º«ØªºÃC¦â¡A«h¥i¥H«ö"Load Texture"Åª¨ú¶K¹Ï
+5. ·Æ¹«ºu½ü«ö¦í«á²¾°Ê¥i¥H§ïÅÜµø¨¤
+6. ·Æ¹«ºu½ü¥i¥HZOOM
+7. ¦³²K¥[°ò¥»ªº abmient, diffuse, specular~
 
 
 
-
-ç›¸é—œé€£çµ
+¬ÛÃö³sµ²
 ==
 [HackMD](https://hackmd.io/@u1E-qvfkRYmDU27hS1T6cA/HkI7sX2RE)
 [GitHub](https://github.com/genius92606/simple-3D-software)
@@ -97,3 +98,8 @@ Thirdparty
 ==
 1. GLFW3
 2. ImGui
+
+
+DEMO
+==
+![](https://i.imgur.com/cAVJojI.gif)
