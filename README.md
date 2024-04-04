@@ -1,11 +1,11 @@
 
-繪圖技術設計與應用FinalProject
+繪圖技術設計與應用 FinalProject
 ============
-作業環境
+Operating System
 ===
 Windows 10, visual studio 15 2017 Win64
 
-方法說明
+Instructions
 ====
 
 #### Requirement
@@ -14,16 +14,17 @@ Windows 10, visual studio 15 2017 Win64
 2. conan - package manager (windows)
 [install here](https://conan.io/)
 
-安裝完後開啟CMD
+Open command prompt
 ```bash
 set PATH="C:\Program File\CMake\bin\";%PATH%
 ```
-找**全英文**的路徑clone個
+Clone the repository
 ```bash
 git clone https://github.com/genius92606/simple-3D-software.git
 ```
- #### 進入資料夾後
+Create "build" folder in the repository
 ```bash
+cd simple-3D-software
 mkdir build && cd build
 
 conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
@@ -40,54 +41,53 @@ cd build
 cmake --build .
 ```
 
-#### 執行
+#### Execution
 ```bash
 cd build
 start bin\app.exe
 ```
-程式如何運行
+How do this work?
 ==
 
 ### File dialog
-使用ImGui建立簡單的檔案總管系統，讓使用者可以很簡單的讀取檔案
+Using ImGui to build a simple file directory system, and let the user to load file easily.
 
 
 ### class
+Manage loaded Mesh and Texture.
 用來管理讀進來的Mesh以及Texture
 
 ### Struct
-記錄所有物體的所有資訊
+Store all the information of the subject
 
-### 滾輪放大縮小以及改變視角
-滑動滾輪可以ZOOM, 壓住滾輪移動可以改變視角
+### Zoom and change perspective
+Scroll the wheel to zoom, and change the perspective by pressing and move the wheel at the same time.
 
 
-程式如何操作
+Application Instruction
 ==
 
-1. 開啟執行檔後
+1. Execute the application
 ```bash
 cd build
 start bin\app.exe
 ```
-2. 按左邊的下拉選單後按"add"新增內建好的物件或是按右邊的"Load obj"來讀取物件
+2. Click the drop down menu at the left, and click "add" to add a built-in object or click "Load obj" to read objects.
 ![](https://i.imgur.com/IhAxQ4V.png)
-3. 如選擇"Load obj"則會跳出檔案總管
+3. If you choose "Load obj", it will pop up a file directory
 ![](https://i.imgur.com/qK1QTp2.png)
-右下角可以選擇想開啟的檔案格式
-4. 新增好後原本的視窗會多出以下欄位
+and you can choose files from the bottom right.
+5.After adding new objects, the windows will add an extra section like below
 ![](https://i.imgur.com/YrwHcA6.png)
-可以更改物件的color, translate, rotation, scale
-如不要內建的顏色，則可以按"Load Texture"讀取貼圖
-5. 滑鼠滾輪按住後移動可以改變視角
-6. 滑鼠滾輪可以ZOOM
-7. 有添加基本的 abmient, diffuse, specular~
+you can change color, translate, rotation, scale of the object. If you don't want the built-in color, you can further loading customize textures by clicking "Load Texture"
+7. Holding scrolling wheel and moving to change perspective.
+8. Scroll the wheel to zoom.
+9. This application includes abmient, diffuse, and specular lighting.
 
 
 
-相關連結
+Relative Links
 ==
-[HackMD](https://hackmd.io/@u1E-qvfkRYmDU27hS1T6cA/HkI7sX2RE)
 
 [GitHub](https://github.com/genius92606/simple-3D-software)
 
