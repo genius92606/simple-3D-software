@@ -55,7 +55,6 @@ Using ImGui to build a simple file directory system, and let the user to load fi
 
 ### class
 Manage loaded Mesh and Texture.
-用來管理讀進來的Mesh以及Texture
 
 ### Struct
 Store all the information of the subject
