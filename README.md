@@ -73,12 +73,10 @@ start bin\app.exe
 ```
 2. Click the drop down menu at the left, and click "add" to add a built-in object or click "Load obj" to read objects.
 ![](https://i.imgur.com/IhAxQ4V.png)
-3. If you choose "Load obj", it will pop up a file directory
+3. If you choose "Load obj", it will pop up a file directory and you can choose files from the bottom right.
 ![](https://i.imgur.com/qK1QTp2.png)
-and you can choose files from the bottom right.
-4.After adding new objects, the windows will add an extra section like below
+4. After adding new objects, the windows will add an extra section like below, you can change color, translate, rotation, scale of the object. If you don't want the built-in color, you can further loading customize textures by clicking "Load Texture"
 ![](https://i.imgur.com/YrwHcA6.png)
-you can change color, translate, rotation, scale of the object. If you don't want the built-in color, you can further loading customize textures by clicking "Load Texture"
 5. Holding scrolling wheel and moving to change perspective.
 6. Scroll the wheel to zoom.
 7. This application includes abmient, diffuse, and specular lighting.
